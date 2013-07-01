@@ -1,0 +1,125 @@
+html {
+	font-size              : 100%;
+	text-rendering         : optimizeLegibility;
+	-webkit-font-smoothing : antialiased;
+}
+
+
+body {
+	font-family : "Avenir Next", sans-serif;
+	font-weight : normal;
+	font-size   : 14px;
+	line-height : 20px;
+	background  : #eee;
+	color       : #333;
+	word-break  : break-all;
+	word-break  : break-word;
+	hyphens     : auto;
+}
+
+#contentdiv {
+	padding-top : 30px;
+}
+
+h1.doctitle {
+	background  : #444;
+	font-size   : 17px;
+	font-weight : bold;
+	color       : #ccc;
+	line-height : 30px;
+	margin      : 0;
+	padding     : 0 10px;
+	white-space : nowrap;
+	position    : fixed;
+	top         : 0;
+	left        : 0;
+	right       : 0;
+}
+
+a:focus {
+	outline: thin dotted;
+}
+a:active, a:hover {
+	outline: 0;
+}
+
+abbr[title] {
+	border-bottom: 1px dotted;
+}
+
+b, strong {
+	font-weight: bold;
+}
+
+dfn {
+	font-style: italic;
+}
+
+code,
+kbd,
+pre,
+samp {
+	background  : #ddd;
+	color       : hsl(215, 78%, 50%);
+	font-family : "DejaVu Sans Mono", monospace;
+	font-size   : 12px;
+	display     : inline-block;
+	padding     : 0px 4px
+}
+
+pre {
+	overflow:auto;
+}
+
+pre code {
+	border-radius: 6px;
+	padding: 20px;
+	white-space: pre;
+}
+
+q {
+	quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+sub,
+sup {
+	font-size      : 75%;
+	line-height    : 0;
+	position       : relative;
+	vertical-align : baseline;
+}
+
+sup {
+	top : -0.5em;
+}
+
+sub {
+	bottom : -0.25em;
+}
+
+figure {
+	margin : 0;
+}
+
+table {
+	border-collapse : collapse;
+	border-spacing  : 0;
+}
+
+h1 {
+	color       : #e0042d;
+	font-weight : 300;
+	font-size   : 40px;
+	line-height : 50px 
+}
+
+h2 {
+	color       : #444;
+	font-weight : 600;
+	font-size   : 26px;
+	line-height : 30px 
+}
+
+h3 {
+	text-transform: uppercase;
+}

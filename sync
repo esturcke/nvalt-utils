@@ -1,0 +1,2 @@
+#!/bin/sh
+rsync -r --exclude sync --exclude README.md --exclude .git  . ~/Library/Application\ Support/nvALT/ 
